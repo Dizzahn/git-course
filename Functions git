@@ -6,7 +6,13 @@ git checkout -b name // создание и сразу переключение 
 git add . // добавление всей репозитории в гит
 git add name.html // добавление файла 
 git commit -m "name of commit" // создание комита -m означает message
-файл .gitignore // для игнорирования всего что не входит в гит прописывать там нуужно название папок и фалов
 git init // инициализировать гит в терминале для определенной папке
 git branch -D name // удалить ветку с названием name
 cls // чистка терминала
+git merge name // совмещение веток
+git config --global user.name "name" // изменениея имени в гите
+git config --global user.email "name@mail.ri" // изменениея e-mail в гите
+git remote add origin https://github.com/Dizzahn/git-course.git // сопряжение git and github
+git push -u origin master // -u upstairs запушить ветку master на github
+файл .gitignore // для игнорирования всего что не входит в гит прописывать там нуужно название папок и фалов
+readme.md //файл который отображается на github
